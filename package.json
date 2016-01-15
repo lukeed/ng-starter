@@ -1,0 +1,12 @@
+{
+  "name": "ng-starter",
+  "version": "0.0.1",
+  "description": "Starter for Angular + ES6 + Gulp + Webpack",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.4.4",
+    "angular-component": "0.0.3",
+    "angular-ui-router": "^0.2.15",
+    "normalize.css": "^3.0.3"
+  }
+}
