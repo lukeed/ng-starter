@@ -8,5 +8,9 @@
     "angular-component": "0.0.3",
     "angular-ui-router": "^0.2.15",
     "normalize.css": "^3.0.3"
-  }
+  },
+  "devDependencies": {
+    "fannypack": "^1.3.0",
+    "gulp": "^3.9.0"
+  },
 }
