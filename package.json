@@ -9,7 +9,7 @@
     "minor": "npm version minor && npm publish",
     "major": "npm version major && npm publish",
     "postpublish": "git push origin master --follow-tags",
-    "test": "ava"
+    "test": "xo && ava"
   },
   "dependencies": {
     "angular": "^1.4.4",
