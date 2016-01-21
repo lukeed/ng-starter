@@ -4,12 +4,19 @@
   "description": "Starter for Angular + ES6 + Gulp + Webpack",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm run build -s",
+    "build": "gulp build:production",
+    "gulp": "gulp",
+    "deploy": "gulp deploy",
+    "version": "gulp rev uglify",
+    "watch": "gulp webpack:watch watch",
+    "test": "xo && ava",
+
     "patch": "npm version patch && npm publish",
     "minor": "npm version minor && npm publish",
     "major": "npm version major && npm publish",
-    "postpublish": "git push origin master --follow-tags",
-    "test": "xo && ava"
+
+    "prepublish": "npm run build -s",
+    "postpublish": "git push origin master --follow-tags"
   },
   "dependencies": {
     "angular": "^1.4.4",
